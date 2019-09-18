@@ -11,4 +11,4 @@
 ### Logan(Project Manager)-https://github.com/LAyers45
 ### James(Frontend Designer)- https://github.com/jmurry2014
 ### Ali(Data Management)- https://github.com/aalani3
-### Landon(Brand Ambassador)- https://gitub.com/17landonjuan
+### Landon(Brand Ambassador)- https://github.com/17landonjuan
