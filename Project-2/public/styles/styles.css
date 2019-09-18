@@ -1,3 +1,47 @@
-.list-group-item {
-  line-height: 2.5;
+#soul{
+   text-align: center;
+font-family: 'Great Vibes', cursive;
+}
+
+#contain{
+    margin-top:200px;
+    opacity: 0.8;
+}
+
+#navigation{
+    margin-top:-600px;
+    font-size:20px;
+    opacity:0.8;
+}
+
+#logo{
+    font-family: 'Great Vibes', cursive;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+#container{
+  margin-top:590px;
+  }
+
+#git{
+    margin-left:620px;
+}
+
+#test{
+    animation-duration:4s;
+}
+ 
+
+body {
+  background: url(IMG_1928.PNG) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+#copyright{
+    color:white;
 }
