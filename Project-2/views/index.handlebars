@@ -1,33 +1,91 @@
-<div id="home">
-  <div class="container">
-    <div class="row">
-      <div class="col-8 offset-2">
-        <h1>{{msg}}</h1>
-        <h2>This is our Home Page!</h2>
-        <form class="clearfix mb-4" action="POST">
-          <div class="form-group">
-            <label for="example-text">Example Text</label>
-            <input type="text" id="example-text" class="form-control" aria-describedby="example-text" placeholder="Enter Example Text">
-          </div>
-          <div class="form-group">
-            <label for="example-description">Example Description</label>
-            <textarea class="form-control" id="example-description" aria-describedby="example-description" placeholder="Enter Example Description"></textarea>
-          </div>
-          <button id="submit" class="btn btn-primary float-right">Submit</button>
-        </form>
-        <h3>Examples:</h3>
-        <ul id="example-list" class="list-group">
-          {{#each examples}}
-          <li data-id="{{this.id}}" class="list-group-item">
-            <a href="example/{{this.id}}">{{this.text}}</a>
-            <button class="btn btn-danger float-right delete">ｘ</button>
-          </li>
-          {{/each}}
-        </ul>
+<body class="animated fadeIn" id="test">
+
+
+  <div class="jumbotron jumbotron-fluid" id="contain">
+    <div class="container">
+      <div class="animated fadeIn" id="animation">
+        <h1 class="display-4" id='soul'>Soul Stretch</h1>
       </div>
+      <p class="lead">Juicy meatballs brisket slammin' baked shoulder. Juicy smoker soy sauce burgers brisket. polenta
+        mustard hunk greens. Wine technique snack skewers chuck excess. Oil heat slowly. slices natural delicious, set
+        aside magic tbsp skillet, bay leaves brown centerpiece. fruit soften edges frond slices onion snack pork steem
+        on wines excess technique cup; Cover smoker soy sauce fruit snack. Sweet one-dozen scrape delicious, non sheet
+        raw crunch mustard. Minutes clever slotted tongs scrape, brown steem undisturbed rice.
+      </p>
+
+
     </div>
   </div>
-</div>
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="/js/index.js"></script>
+
+  <!-- just dividing the contents -->
+  <div class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navigation">
+
+      <a class="navbar-brand" href="#" id="logo">Soul Stretch</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <img src="images/Spotify_Icon_RGB_Green.png" class="mr-3" alt="spotify logo" id="spotify" height=21px></a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- just dividing the contents -->
+
+  <!-- Footer -->
+  <div id="container">
+    <footer class="page-footer font-small blue pt-4">
+
+      <!-- Footer Links -->
+      <div class="container-fluid text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-6 mt-md-0 mt-3">
+
+            <!-- Content -->
+
+          </div>
+
+        </div>
+        <!-- Grid column -->
+
+
+
+      </div>
+      <!-- Grid row -->
+
+  </div>
+  <!-- just dividing the contents -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3" id="copyright">© 2019 Copyright:
+    <a href="https://github.com/LAyers45/project-2">
+      <div class="media">
+        <img src="images/GitHub_Logo_White.png" class="mr-3" alt="github logo" width="200" height="60" id="git">
+    </a>
+  </div>
+  <!-- Copyright -->
+
+  </footer>
+  </div>
+
+
+
+</body>
