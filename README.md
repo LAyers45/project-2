@@ -9,4 +9,6 @@
 ### It provides techniques and graphics for meditation, breathing, and streching.
 ## Where can I find these impreesive developers?
 ### Logan(Project Manager)-https://github.com/LAyers45
-### James(Lead Webpage Designer)- https://github.com/
+### James(Frontend Designer)- https://github.com/jmurry2014
+### Ali(Data Management)- https://github.com/aalani3
+### Landon(Brand Ambassador)- https://gitub.com/17landonjuan
