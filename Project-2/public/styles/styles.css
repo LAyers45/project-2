@@ -28,7 +28,8 @@ body{
   }
 
 #git-logo{
-    margin-left:620px;
+    margin-left:450px;
+    
 }
 
 #fade{
@@ -37,12 +38,24 @@ body{
  
 
 body {
-  background: url(IMG_1928.PNG) no-repeat center center fixed;
+  background: url(simon-migaj-Yui5vfKHuzs-unsplash.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
   overflow: hidden;
 }
 
 #copyright{
-    color:white;
+
+    color:black;
+}
+
+#navigation-2{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+   opacity: 0.8;
 }
