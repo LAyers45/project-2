@@ -7,7 +7,7 @@
 ### It will let you sign up and login to the webpage.
 ### It allows users to connect to their spotify as well as to utilize one of our reccomended playlists
 ### It provides techniques and graphics for meditation, breathing, and streching.
-## Where can I find these impreesive developers?
+## Where can I find these impressive developers?
 ### Logan(Project Manager)-https://github.com/LAyers45
 ### James(Frontend Designer)- https://github.com/jmurry2014
 ### Ali(Data Management)- https://github.com/aalani3
