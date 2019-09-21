@@ -3,7 +3,7 @@
 font-family: 'Great Vibes', cursive;
 }
 
-#contain{
+#container-text{
     margin-top:200px;
     opacity: 0.8;
 }
@@ -14,8 +14,9 @@ font-family: 'Great Vibes', cursive;
     opacity:0.8;
 }
 
-#logo{
+#jumbo-logo{
     font-family: 'Great Vibes', cursive;
+    margin-left:420px;
 }
 
 body{
@@ -26,11 +27,11 @@ body{
   margin-top:590px;
   }
 
-#git{
+#git-logo{
     margin-left:620px;
 }
 
-#test{
+#fade{
     animation-duration:4s;
 }
  
