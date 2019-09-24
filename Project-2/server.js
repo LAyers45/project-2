@@ -20,9 +20,14 @@ app.engine(
   })
 );
 app.set("view engine", "handlebars");
-app.get('/', function (req, res) {
-  res.render('index')
-})
+app.get("/", function (req, res) {
+  res.render("index");
+});
+
+app.get("/about", function (req, res) {
+  res.render("about");
+});
+
 
 // Routes
 require("./routes/apiRoutes")(app);
