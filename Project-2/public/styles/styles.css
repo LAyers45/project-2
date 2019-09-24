@@ -4,7 +4,7 @@ font-family: 'Great Vibes', cursive;
 }
 
 #container-text{
-    margin-top:200px;
+    margin-top:200px;   
     opacity: 0.8;
 }
 
@@ -21,6 +21,9 @@ font-family: 'Great Vibes', cursive;
 
 body{
     font-family: 'Quicksand', sans-serif;
+      min-height: 400px;
+   margin-bottom: 100px;
+   clear: both;
 }
 
 #container{
@@ -35,7 +38,9 @@ body{
 #fade{
     animation-duration:4s;
 }
- 
+
+
+
 
 body {
   background: url(simon-migaj-Yui5vfKHuzs-unsplash.jpg) no-repeat center center fixed;
@@ -58,4 +63,36 @@ body {
   color: white;
   text-align: center;
    opacity: 0.8;
+}
+
+.bd-example{
+margin-top:30px;
+    background-color:white;
+    opacity:0.8;
+}
+
+html{
+    overflow:auto;
+}
+
+#footer{
+  bottom: 0;
+clear: both;
+position: absolute;
+text-align: center;
+width: 96%;
+padding:2%;
+
+z-index:1000;
+}
+
+#deck{
+    margin-top:100px;
+}
+
+.card{
+  border-radius:10px;
+    background-color:GHOSTWHITE;
+    opacity:0.9;
+
 }
