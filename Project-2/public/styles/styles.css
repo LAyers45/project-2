@@ -50,7 +50,7 @@ body{
 body {
   background: url(simon-migaj-Yui5vfKHuzs-unsplash.jpg) no-repeat center center fixed;
   background-size: cover;
-  height: 100%;
+  
 
 }
 
@@ -118,6 +118,13 @@ padding:2%;
 #deck{
     margin-top:100px;
 }
+
+
+#soulstretch{
+  margin-left:30px;
+  margin-top:700px;
+}
+
 
 .card{
   border-radius:10px;
