@@ -19,6 +19,7 @@ font-family: 'Great Vibes', cursive;
 #jumbo-logo{
     font-family: 'Great Vibes', cursive;
     margin-left:420px;
+    font-size: 54px;
 }
 
 body{
@@ -50,7 +51,7 @@ body {
   background: url(simon-migaj-Yui5vfKHuzs-unsplash.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
-  overflow: hidden;
+
 }
 
 #copyright{
@@ -86,8 +87,12 @@ form{
 }
 .signInForm{
     display:none;
+<<<<<<< HEAD
+}
+=======
 
 
+>>>>>>> 7d22a2333cbfc44511cc15fb8f8c112d9b96510a
 .bd-example{
 margin-top:30px;
     background-color:white;
@@ -105,8 +110,9 @@ position: absolute;
 text-align: center;
 width: 96%;
 padding:2%;
+  margin-bottom: 35px;  
+  z-index: 999; 
 
-z-index:1000;
 }
 
 #deck{
@@ -121,6 +127,16 @@ z-index:1000;
 
 
 
+<<<<<<< HEAD
+
+
+
+
+
+
+
+=======
+>>>>>>> 7d22a2333cbfc44511cc15fb8f8c112d9b96510a
 }
 
 @media screen and (max-width: 600px) {
@@ -147,5 +163,13 @@ z-index:1000;
 
 
 
+<<<<<<< HEAD
+
+
+
+
+}
+=======
 }
 
+>>>>>>> 7d22a2333cbfc44511cc15fb8f8c112d9b96510a
