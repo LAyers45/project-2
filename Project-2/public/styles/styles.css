@@ -86,6 +86,8 @@ form{
 }
 .signInForm{
     display:none;
+
+
 .bd-example{
 margin-top:30px;
     background-color:white;
@@ -115,6 +117,10 @@ z-index:1000;
   border-radius:10px;
    
     opacity:0.9;
+
+
+
+
 }
 
 @media screen and (max-width: 600px) {
@@ -138,3 +144,8 @@ z-index:1000;
     font-family: 'Great Vibes', cursive;
     margin-left:0px;
 }
+
+
+
+}
+
