@@ -6,6 +6,8 @@ font-family: 'Great Vibes', cursive;
 #container-text{
     margin-top:200px;   
     opacity: 0.8;
+     
+
 }
 
 #navigation{
@@ -23,11 +25,13 @@ body{
     font-family: 'Quicksand', sans-serif;
       min-height: 400px;
    margin-bottom: 100px;
-   clear: both;
+   clear: both ;
+
 }
 
 #container{
   margin-top:590px;
+
   }
 
 #git-logo{
@@ -82,7 +86,6 @@ form{
 }
 .signInForm{
     display:none;
-=======
 .bd-example{
 margin-top:30px;
     background-color:white;
@@ -110,6 +113,28 @@ z-index:1000;
 
 .card{
   border-radius:10px;
-    background-color:GHOSTWHITE;
+   
     opacity:0.9;
+}
+
+@media screen and (max-width: 600px) {
+  #navigation {
+  position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    margin-top:0px;
+
+  }
+  #git-logo{
+      margin-left:0px;
+  }
+
+  .card-deck{
+      margin-bottom:400px;
+  }
+
+  #jumbo-logo{
+    font-family: 'Great Vibes', cursive;
+    margin-left:0px;
 }
