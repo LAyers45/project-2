@@ -3,9 +3,9 @@ $(document).ready(function () {
   //-----------------------------
   //console.log("login.js checking in");
   // Login
-  var $logEmail = $("log-email-form");
-  var $logPassword = $("log-password-form");
-  var $logInButton = $("logInBttn");
+  var $logEmail = $("#log-email");
+  var $logPassword = $("#log-password");
+  var $logInButton = $("#logInBttn");
   var $swapToSign = $("#swapToSignup");
 
   // Signup
@@ -17,7 +17,7 @@ $(document).ready(function () {
   var $swapToLog = $("#swapToLogIn");
 
   // Misc
-  var loggedIn = false;
+  //var loggedIn = false;
 
   //Create the user object to be used in sign up page to save email, password, and username
   var user = {
@@ -31,7 +31,7 @@ $(document).ready(function () {
         data: JSON.stringify(userInfo)
       });
     },
-    getExamples: function () {
+    checkLogin: function () {
       return $.ajax({
         url: "api/Users",
         type: "GET"
@@ -60,13 +60,33 @@ $(document).ready(function () {
     }
   };
 
-  function loginValidate() { }
+  var loginFormSubmit = function (event) {
+    event.preventDefault();
 
-  function logCheck() {
+    console.log($logEmail);
+
+    var loginInfo = {
+      userEmail: $logEmail.val().trim(),
+      userPassword: $logPassword.val().trim()
+    };
+
+    if (!(loginInfo.userEmail && loginInfo.userPassword)) {
+      alert("Be surer to enter a valid email and password.");
+      return;
+    } else {
+      user.checkLogin(loginInfo).then(function (resp) {
+        console.log(resp);
+        console.log("User data has been verified.");
+        $("Form").hide();
+      });
+    }
+  };
+
+  /*function logCheck() {
     if (loggedIn === true) {
       $("Form").hide();
     }
-  }
+  }*/
 
   function swapToSign() {
     $(".loginForm").hide();
@@ -78,27 +98,9 @@ $(document).ready(function () {
     $(".signInForm").hide();
   }
 
-  function signUp(event) {
-    event.preventDefault();
-    var todo = {
-      text: $newItemInput.val().trim(),
-      complete: false
-    };
-
-    $.post("/api/todos", todo, getTodos);
-    $newItemInput.val("");
-  }
-
-  function logIn() {
-    console.log("logging you in.");
-    $("Form").hide();
-    var loggedIn = true;
-    logCheck();
-  }
-
   $swapToSign.on("click", swapToSign);
   $swapToLog.on("click", swapToLog);
 
   $signUpButton.on("click", signUpFormSubmit);
-  $logInButton.on("click", logIn);
+  $logInButton.on("click", loginFormSubmit);
 });
