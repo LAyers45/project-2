@@ -28,6 +28,10 @@ app.get("/about", function (req, res) {
   res.render("about");
 });
 
+app.get("/music", function (req, res) {
+  res.render("music");
+});
+
 
 // Routes
 require("./routes/apiRoutes")(app);
