@@ -32,6 +32,13 @@ app.get("/music", function (req, res) {
   res.render("music");
 });
 
+app.get("/breathworks", function (req, res) {
+  res.render("breathworks");
+});
+
+app.get("/soulstretch", function (req, res) {
+  res.render("soulstretch");
+});
 
 // Routes
 require("./routes/apiRoutes")(app);
