@@ -1,14 +1,14 @@
 {
   "development": {
     "username": "root",
-    "password": "Chestylion17",
+    "password": "futbol17",
     "database": "userInfo_db",
     "host": "localhost",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": "Chestylion17",
+    "password": "futbol17",
     "database": "userInfo_db",
     "host": "localhost",
     "dialect": "mysql",

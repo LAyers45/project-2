@@ -18,6 +18,7 @@
     "fs": "0.0.1-security",
     "handlebars": "^4.3.0",
     "mysql2": "^1.7.0",
+    "node": "^12.10.0",
     "path": "^0.12.7",
     "sequelize": "^5.19.0",
     "view": "^1.1.1"
