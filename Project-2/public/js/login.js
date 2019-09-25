@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
   //Variables from page elements
   //-----------------------------
   //console.log("login.js checking in");
@@ -21,7 +21,7 @@ $(document).ready(function() {
 
   //Create the user object to be used in sign up page to save email, password, and username
   var user = {
-    saveInfo: function(userInfo) {
+    saveInfo: function (userInfo) {
       return $.ajax({
         headers: {
           "Content-Type": "application/json"
@@ -31,7 +31,7 @@ $(document).ready(function() {
         data: JSON.stringify(userInfo)
       });
     },
-    getExamples: function() {
+    getExamples: function () {
       return $.ajax({
         url: "api/Users",
         type: "GET"
@@ -39,27 +39,28 @@ $(document).ready(function() {
     }
   };
 
-  var signUpFormSubmit = function(event) {
+  var signUpFormSubmit = function (event) {
     event.preventDefault();
 
     var userInfo = {
-      email: $signEmail.val().trim(),
-      password: $signPassword.val().trim(),
+      userEmail: $signEmail.val().trim(),
+      userPassword: $signPassword.val().trim(),
       username: $signUsername.val().trim()
     };
 
-    if (!(userInfo.email && userInfo.password)) {
+    if (!(userInfo.userEmail && userInfo.userPassword)) {
       alert("You must enter a valid email and password.");
       return;
     } else {
-      user.saveInfo(userInfo).then(function(resp) {
+      user.saveInfo(userInfo).then(function (resp) {
         console.log(resp);
         console.log("User data updated.");
+        $("Form").hide();
       });
     }
   };
 
-  function loginValidate() {}
+  function loginValidate() { }
 
   function logCheck() {
     if (loggedIn === true) {
