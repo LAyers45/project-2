@@ -87,7 +87,12 @@ form{
 }
 .signInForm{
     display:none;
+<<<<<<< HEAD
 }
+=======
+
+
+>>>>>>> 7d22a2333cbfc44511cc15fb8f8c112d9b96510a
 .bd-example{
 margin-top:30px;
     background-color:white;
@@ -122,6 +127,7 @@ padding:2%;
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -129,6 +135,8 @@ padding:2%;
 
 
 
+=======
+>>>>>>> 7d22a2333cbfc44511cc15fb8f8c112d9b96510a
 }
 
 @media screen and (max-width: 600px) {
@@ -155,8 +163,13 @@ padding:2%;
 
 
 
+<<<<<<< HEAD
 
 
 
 
 }
+=======
+}
+
+>>>>>>> 7d22a2333cbfc44511cc15fb8f8c112d9b96510a
