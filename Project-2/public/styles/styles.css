@@ -69,6 +69,24 @@ body {
    opacity: 0.8;
 }
 
+form{
+    font-family: 'Great Vibes', cursive;
+    background-color: #BCBBBB;
+    position:fixed;
+    width: 50%;
+    height: 65%;
+    border: solid 2px solid #6E6E6E;
+    left: 25%;
+    bottom: 15%;
+    padding: 50px;
+    opacity: 1;
+}
+.signup-button{
+    float:right;
+}
+.signInForm{
+    display:none;
+=======
 .bd-example{
 margin-top:30px;
     background-color:white;
@@ -98,6 +116,7 @@ z-index:1000;
   border-radius:10px;
    
     opacity:0.9;
+<<<<<<< HEAD
 
 }
 
@@ -131,4 +150,6 @@ z-index:1000;
     font-family: 'Great Vibes', cursive;
     margin-left:0px;
 }
+=======
+>>>>>>> b6a486d2e168364f514de515d44e918ce58afced
 }
