@@ -7,8 +7,8 @@ module.exports = function (app) {
       where: {
         userEmail: req.params.userEmail
       }
-    }).then(function (dbUsers) {
-      res.json(dbUsers);
+    }).then(function (dbUser) {
+      res.json(dbUser);
     });
   });
 
@@ -32,4 +32,3 @@ module.exports = function (app) {
   });
 */
 };
-
