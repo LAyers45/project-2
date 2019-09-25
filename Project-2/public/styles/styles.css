@@ -129,6 +129,15 @@ padding:2%;
 
 }
 
+
+#music{
+  margin-top:625px;
+}
+
+#breathworks{
+  margin-top:620px
+}
+
 @media screen and (max-width: 600px) {
   #navigation {
   position: fixed;
