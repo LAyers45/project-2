@@ -170,3 +170,47 @@ padding:2%;
 
 
 }
+#spotify-body{
+	min-height: 100%;
+	background: url(bergsee-4487292_1920.jpg) no-repeat center center fixed;
+	background-size: cover;
+	display: block;
+}
+
+.form-spotify,
+.playlist {
+	width: 50%;
+	padding: 80px;
+}
+
+
+.form-spotify p {
+	color:white;
+	font-size: 17px;
+}
+
+.main-container-spotify input {
+	background: rgba(255,255,255,0.2);
+	height: 50px;
+	border: 1px solid white;
+	border-radius: 5px 0px 0px 5px;
+}
+
+.main-container-spotify input[type="search"] {
+	padding: 0 10px 0 10px;
+	color: #463e3e;
+	flex: 1 0 200px;
+}
+
+.main-container-spotify input[type=submit] {
+	border-radius: 0px 5px 5px 0px;
+	border-left: none;
+	background: white;
+	flex: 1 0 100px;
+	box-shadow: inset 0px 0px 0px rgba(0,0,0,0.1);
+	transition: box-shadow 0.3s ease;
+}
+
+.main-container-spotify input[type=submit]:hover {
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.2);
+}
