@@ -1,16 +1,16 @@
 {
   "development": {
-    "username": "root",
-    "password": "futbol17",
-    "database": "userInfo_db",
-    "host": "localhost",
+    "username": "nm3b62q9vamn8qvh",
+    "password": "eiqxqrxmkp12rff4",
+    "database": "rb6w7js57ntjm6qw",
+    "host": "d6vscs19jtah8iwb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": "futbol17",
-    "database": "userInfo_db",
-    "host": "localhost",
+    "username": "nm3b62q9vamn8qvh",
+    "password": "eiqxqrxmkp12rff4",
+    "database": "rb6w7js57ntjm6qw",
+    "host": "d6vscs19jtah8iwb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql",
     "logging": false
   },
