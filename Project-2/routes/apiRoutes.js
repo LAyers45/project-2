@@ -1,24 +1,24 @@
 var db = require("../models");
 
-module.exports = function (app) {
+module.exports = function(app) {
   // Get users username
-  app.get("/api/Users", function (req, res) {
+  app.get("/api/Users", function(req, res) {
     db.User.findOne({
       where: {
         userEmail: req.params.userEmail
       }
-    }).then(function (dbUser) {
+    }).then(function(dbUser) {
       res.json(dbUser);
     });
   });
 
   // Create a new User
-  app.post("/api/Users", function (req, res) {
+  app.post("/api/Users", function(req, res) {
     db.User.create({
       username: req.body.username,
       userEmail: req.body.userEmail,
       userPassword: req.body.userPassword
-    }).then(function (dbUser) {
+    }).then(function(dbUser) {
       res.json(dbUser);
     });
   });

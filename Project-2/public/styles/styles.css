@@ -1,92 +1,92 @@
 #soul{
-   text-align: center;
+  text-align: center;
 font-family: 'Great Vibes', cursive;
 }
 
 #container-text{
-    margin-top:200px;   
-    opacity: 0.8;
-     
+   margin-top:200px;   
+   opacity: 0.8;
+    
 
 }
 
 #navigation{
-    margin-top:-600px;
-    font-size:20px;
-    opacity:0.8;
+   margin-top:-600px;
+   font-size:20px;
+   opacity:0.8;
 }
 
 #jumbo-logo{
-    font-family: 'Great Vibes', cursive;
-    margin-left:420px;
-    font-size: 54px;
+   font-family: 'Great Vibes', cursive;
+   margin-left:420px;
+   font-size: 54px;
 }
 
 body{
-    font-family: 'Quicksand', sans-serif;
-      min-height: 400px;
-   margin-bottom: 100px;
-   clear: both ;
+   font-family: 'Quicksand', sans-serif;
+     min-height: 400px;
+  margin-bottom: 100px;
+  clear: both ;
 
 }
 
 #container{
-  margin-top:590px;
+ margin-top:590px;
 
-  }
+ }
 
 #git-logo{
-    margin-left:450px;
-    
+   margin-left:450px;
+   
 }
 
 #fade{
-    animation-duration:4s;
+   animation-duration:4s;
 }
 
 
 
 
 body {
-  background: url(simon-migaj-Yui5vfKHuzs-unsplash.jpg) no-repeat center center fixed;
-  background-size: cover;
-  height: 100%;
+ background: url(simon-migaj-Yui5vfKHuzs-unsplash.jpg) no-repeat center center fixed;
+ background-size: cover;
+ 
 
 }
 
 #copyright{
 
-    color:black;
+   color:black;
 }
 
 #navigation-2{
-    position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
-   opacity: 0.8;
+   position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ background-color: red;
+ color: white;
+ text-align: center;
+  opacity: 0.8;
 }
 
 form{
-    font-family: 'Great Vibes', cursive;
-    background-color: #BCBBBB;
-    position:fixed;
-    width: 50%;
-    height: 65%;
-    border: solid 2px solid #6E6E6E;
-    left: 25%;
-    bottom: 15%;
-    padding: 50px;
-    opacity: 1;
+   font-family: 'Great Vibes', cursive;
+   background-color: #BCBBBB;
+   position:fixed;
+   width: 50%;
+   height: 65%;
+   border: solid 2px solid #6E6E6E;
+   left: 25%;
+   bottom: 15%;
+   padding: 50px;
+   opacity: 1;
 }
 .signup-button{
-    float:right;
+   float:right;
 }
 .signInForm{
-    display:none;
+   display:none;
 
 }
 
@@ -95,62 +95,88 @@ form{
 
 .bd-example{
 margin-top:30px;
-    background-color:white;
-    opacity:0.8;
+   background-color:white;
+   opacity:0.8;
 }
 
 html{
-    overflow:auto;
+   overflow:auto;
 }
 
 #footer{
-  bottom: 0;
+ bottom: 0;
 clear: both;
 position: absolute;
 text-align: center;
 width: 96%;
 padding:2%;
-  margin-bottom: 35px;  
-  z-index: 999; 
+ margin-bottom: 35px;  
+ z-index: 999; 
 
 }
 
 #deck{
-    margin-top:100px;
+   margin-top:100px;
 }
 
+
+#soulstretch{
+ margin-left:30px;
+ margin-top:700px;
+}
+
+
 .card{
-  border-radius:10px;
-   
-    opacity:0.9;
+ border-radius:10px;
+  
+   opacity:0.9;
 
 
 
 
+}
+
+
+#music{
+ margin-top:625px;
+}
+
+#breathworks{
+ margin-top:620px
 }
 
 @media screen and (max-width: 600px) {
-  #navigation {
-  position: fixed;
-    top: 0;
-    z-index: 9999;
-    width: 100%;
-    margin-top:0px;
+ #navigation {
+ position: fixed;
+   top: 0;
+   z-index: 9999;
+   width: 100%;
+   margin-top:0px;
 
-  }
-  #git-logo{
-      margin-left:0px;
-  }
+ }
+ #git-logo{
+     margin-left:0px;
+ }
 
-  .card-deck{
-      margin-bottom:400px;
-  }
+ .card-deck{
+     margin-bottom:400px;
+ }
 
-  #jumbo-logo{
-    font-family: 'Great Vibes', cursive;
-    margin-left:0px;
+ #jumbo-logo{
+   font-family: 'Great Vibes', cursive;
+   margin-left:0px;
 }
 
+}
 
+#spotify-body{
+  min-height: 100%;
+	background: url(bergsee-4487292_1920.jpg) no-repeat center center fixed;
+	background-size: cover;
+	display: block;
+}
 
+.form-spotify p {
+	color:white;
+	font-size: 17px;
 }

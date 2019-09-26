@@ -10,7 +10,7 @@ var PORT = process.env.PORT || 3000;
 // Middleware
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-app.use(express.static(path.join(__dirname, '/public')));
+app.use(express.static(path.join(__dirname, "/public")));
 
 // Handlebars
 app.engine(
@@ -20,18 +20,17 @@ app.engine(
   })
 );
 app.set("view engine", "handlebars");
-app.get("/", function (req, res) {
+app.get("/", function(req, res) {
   res.render("index");
 });
 
-app.get("/about", function (req, res) {
+app.get("/about", function(req, res) {
   res.render("about");
 });
 
-app.get("/music", function (req, res) {
+app.get("/music", function(req, res) {
   res.render("music");
 });
-
 
 // Routes
 require("./routes/apiRoutes")(app);
@@ -46,8 +45,8 @@ if (process.env.NODE_ENV === "test") {
 }
 
 // Starting the server, syncing our models ------------------------------------/
-db.sequelize.sync(syncOptions).then(function () {
-  app.listen(PORT, function () {
+db.sequelize.sync(syncOptions).then(function() {
+  app.listen(PORT, function() {
     console.log(
       "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.",
       PORT,
