@@ -39,6 +39,9 @@ app.get("/breathworks", function (req, res) {
 app.get("/soulstretch", function (req, res) {
   res.render("soulstretch");
 });
+app.get("/spotify", function (req, res) {
+  res.render("spotify");
+});
 
 // Routes
 require("./routes/apiRoutes")(app);
