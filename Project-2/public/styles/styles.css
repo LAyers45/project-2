@@ -177,14 +177,14 @@ padding:2%;
 }
 
 .form-spotify p {
-	color:white;
+	color:lightgray;
 	font-size: 17px;
 }
 
 .main-container-spotify input {
 	background: rgba(255,255,255,0.2);
 	height: 50px;
-	border: 1px solid white;
+	border: 1px solid lightgray;
 	border-radius: 5px 0px 0px 5px;
 }
 
@@ -197,7 +197,7 @@ padding:2%;
 .main-container-spotify input[type=submit] {
 	border-radius: 0px 5px 5px 0px;
 	border-left: none;
-	background: white;
+	background:lightgray;
 	flex: 1 0 100px;
 	box-shadow: inset 0px 0px 0px rgba(0,0,0,0.1);
 	transition: box-shadow 0.3s ease;
