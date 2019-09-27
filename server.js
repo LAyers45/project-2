@@ -40,6 +40,9 @@ app.get("/soulstretch", function (req, res) {
   res.render("soulstretch");
 });
 
+
+
+
 // Routes
 require("./routes/apiRoutes")(app);
 require("./routes/htmlRoutes")(app);

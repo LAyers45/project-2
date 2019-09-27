@@ -72,7 +72,7 @@ body {
 
 form{
     font-family: 'Great Vibes', cursive;
-    background-color: #BCBBBB;
+    background-color: black;
     position:fixed;
     width: 50%;
     height: 65%;
@@ -80,7 +80,10 @@ form{
     left: 25%;
     bottom: 15%;
     padding: 50px;
-    opacity: 1;
+    opacity: 0.8;
+    border-radius:24px;
+    color:white;
+    
 }
 .signup-button{
     float:right;
@@ -121,7 +124,7 @@ padding:2%;
 
 
 #soulstretch{
-  margin-left:30px;
+
   margin-top:700px;
 }
 
@@ -143,6 +146,11 @@ padding:2%;
 
 #breathworks{
   margin-top:620px
+}
+
+
+.test{
+  color:black;
 }
 
 @media screen and (max-width: 600px) {
